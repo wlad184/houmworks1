@@ -65,6 +65,16 @@ public class Main {
         System.out.println();
 
         // task 8
+        var totalHours = 640;
+        var hoursOneWorker = 8;
+        var totalWorker = totalHours / hoursOneWorker;
+        System.out.println("Всего работников в компании - " + totalWorker + " человек");
+
+
+        totalWorker += 94;
+        totalHours = totalWorker * hoursOneWorker;
+        System.out.println("Если в компании работает " + totalWorker + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками");
+
 
 
 
